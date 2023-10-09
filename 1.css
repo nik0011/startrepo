@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+#box{
+     height: 300px;
+     width: 570px;
+     background-color: rgba(8, 8, 8, 0.856);
+    border-radius: 5px;
+    
+}
