@@ -7,7 +7,6 @@ html , body{
     height: 100%;
     width: 100%;
 }
-
 #main{
     height: 100%;
     width: 100%;
@@ -19,11 +18,9 @@ html , body{
     align-items: center ;
 
 }
-
 #box{
      height: 300px;
      width: 570px;
      background-color: rgba(8, 8, 8, 0.856);
     border-radius: 5px;
-    
 }
