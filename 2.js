@@ -1,4 +1,3 @@
-
 window.addEventListener("mousemove",function(details){
     var rect = document.querySelector("#rect");
     var rectloc = rect.getBoundingClientRect();
