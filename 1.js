@@ -8,6 +8,7 @@ if(insiderect < rectloc.width){
     var ops = gsap.utils.mapRange(0,rectloc.width, 0, 1, details.clientX);
 };
 gsap.to(rect,{
+
     opacity: ops
    
 })
