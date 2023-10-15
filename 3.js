@@ -21,12 +21,16 @@ btn.addEventListener("mousemove", throttleFunction((dets)=>{
        gsap.to(img,{
         y:"0",
         ease:Power1,
-        duration:0.3,
+        duration:0.6,
        });
        gsap.to(img,{
         y:"100%",
-        delay:.5,
+        delay:1,
         ease:Power1,
-        duration:0.3,
+        duration:0.6,
        });
-}, 50));
+      setTimeout(function(){
+        div.remove();
+
+       },2000)
+}, 300));
